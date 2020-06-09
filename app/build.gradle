@@ -25,7 +25,7 @@ android {
         applicationId "com.dombroks.onesignaltest"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [
-                onesignal_app_id               : 'fd26dc81-d7f3-4e45-a828-41143af3135d',
+                onesignal_app_id               : 'Your app id here',
                 // Project number pulled from dashboard, local value is ignored.
                 onesignal_google_project_number: 'REMOTE']
         minSdkVersion 16
